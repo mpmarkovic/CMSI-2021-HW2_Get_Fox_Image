@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+  width: 80%;
+}
+
+#photo {
+  margin-top: 20px;
+  width: 100%;
+}
+
+body {
+  background-image: linear-gradient(
+    white,
+    lightsalmon,
+    white
+  );
+
+  display: grid;
+}
+
+header {
+  background-color: orangered;
+  color: white;
+  font-family: Luminari, fantasy;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-shadow: 3px 3px 3px black;
+  font-size: 300%;
+  padding: 5px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+#headerPhoto {
+  height: 60px;
+  width: 75px;
+  justify-content: space-around;
+}
